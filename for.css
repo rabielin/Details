@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    background-color: #b1e6cb;
+    outline: none;
+}
+
+body {
+    background: linear-gradient(#173f2b, rgb(82, 112, 90));
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 450px;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    padding: 18px;
+}
+
+legend {
+    font-weight: bold;
+    color: #173f2b;
+}
+
+.Boton {
+    width: 40%;
+}
+
+.Boton:hover {
+    background-color: rgb(236, 104, 71);
+}
